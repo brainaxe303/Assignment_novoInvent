@@ -1,0 +1,104 @@
+      body {
+            background-color: black;
+        }
+
+        .div1 {
+            padding: 2px;
+            background: beige;
+            width: 100%;
+            height: 30px;
+        }
+
+        .div2 {
+            display: grid;
+            margin-top: -6px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 175px);
+            gap: 10px;
+            position: relative;
+        }
+
+        .div2>span {
+            background-color: rgb(6, 173, 23);
+        }
+
+        .lastgrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 3fr;
+            grid-gap: 8px;
+            margin: 20px;
+            margin-top: -0.2px;
+
+        }
+
+        .item1 {
+            background-color: rgb(241, 210, 152);
+            height: 100px;
+        }
+
+        .item2 {
+            background-color: rgb(188, 208, 11);
+            height: 35px;
+            margin-top: -5px;
+        }
+
+
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+            margin: 10px;
+        }
+
+        .grid-item {
+            background-color: #ccc;
+            padding: 10px;
+            height: 60px;
+        }
+
+        .column-3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            background-color: black;
+            height: 100px;
+        }
+
+        .row {
+            background-color: #8590e6;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        .row1 {
+            height: 30px;
+            margin-top: -8px;
+            height: 50px;
+        }
+
+        .row2 {
+            height: 30px;
+            margin-top: -10px;
+            height: 50px;
+        }
+
+        .sq {
+            height: 180px;
+            width: 20px;
+            background-color: rgb(214, 93, 42);
+        }
+
+        .sq1 {
+            margin-left: -1px;
+            position: absolute;
+            left: 0;
+        }
+
+        .sq2 {
+            margin-top: -197px;
+            position: absolute;
+            right: 0;
+        }
+    

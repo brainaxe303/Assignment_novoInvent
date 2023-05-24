@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100%;
+        }
+
+        .container {
+            position: absolute;
+            background-color: black;
+            width: 75%;
+            height: 100%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            display: grid;
+            grid-template-rows: 3fr 12fr 1fr 1fr;
+        }
+
+        .row-1 {
+            background-color: #FFA03E;
+        }
+
+        .row-2>div:first-child {
+            background-color: #BABABA;
+        }
+
+        .upper>div:first-child {
+            background-color: #FEBB91;
+        }
+
+        .upper>div:nth-child(2)>div {
+            background-color: turquoise;
+        }
+
+        .upper>div:last-child {
+            background-color: #BABABA;
+        }
+
+        .lower div {
+            background-color: #222220;
+        }
+
+        .lower>div:first-child {
+            background-color: #0a99ff;
+        }
+
+        .row-3 {
+            background-color: #98894e;
+            margin: 0.25rem
+        }
+
+        .row-4 {
+            background-color: #76610b;
+            margin: 0.25rem
+        }
+
+        .row-2 {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr 15fr;
+            margin: 0.5rem;
+        }
+
+        .layouts {
+            display: grid;
+        }
+
+        .upper {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 5fr 5fr 1fr;
+            margin: 0.5rem;
+        }
+
+        .upper>div:nth-child(2) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .upper>div:nth-child(2)>div {
+            margin: 0.25rem;
+        }
+
+        .lower {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 7fr 3fr;
+            margin: 0.5rem;
+        }
+
+        .lower>div:nth-child(2) {
+            display: grid;
+            background-color: black;
+        }
+
+        .lower>div:nth-child(2) div {
+            margin: 0.25rem;
+        }
+
+        .lower>div:nth-child(2)>div:first-child {
+            margin-left: 0.5rem;
+        }
+
+        .lower>div:nth-child(2)>div:nth-child(2) {
+            display: grid;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-1">1</div>
+        <div class="row-2">
+            <div>2</div>
+            <div class="layouts">
+                <div class="upper">
+                    <div>3</div>
+                    <div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>7</div>
+                        <div>8</div>
+                    </div>
+                    <div>6</div>
+                </div>
+                <div class="lower">
+                    <div>9</div>
+                    <div>
+                        <div>10</div>
+                        <div>
+                            <div>11</div>
+                            <div>12</div>
+                            <div>13</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-3">14</div>
+        <div class="row-4">15</div>
+    </div>
+</body>
+
+</html>
