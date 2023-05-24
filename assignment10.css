@@ -1,0 +1,99 @@
+.box {
+  height: 100px;
+  background-color: #ccc;
+  margin: 10px;
+  border: 1px solid #000;
+}
+.r1{
+    width:100%;
+    background-color: grey;
+}
+
+.row-1 {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+}
+.b2{
+    width:15rem;
+    height:15rem;
+    padding: 3rem;
+    background-color: orange;
+}
+.b3{
+    width: 100%;
+    background-color: cyan;
+}
+.b4{
+    width: 100%;
+    background-color: darkblue;
+}
+.b5{
+    width:100px;
+    height: 100px;
+    background-color: orange;
+}
+.b6{
+    width:100px;
+    height: 100px;
+    background-color: cyan;
+}
+.b7{
+    width:200px;
+    background-color: beige;
+}
+.b8{
+    width:200px;
+    background-color: green;
+}
+.b9{
+    width:100px;
+    background-color: palevioletred;
+}
+.b10{
+    width:100%;
+    background-color: blue;
+}
+.row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.row-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.row-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row-7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row-8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
