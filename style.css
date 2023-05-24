@@ -18,20 +18,7 @@
   height: 200px;
   margin-bottom: 10px;
 }
-/* 
-.grid-conatiner {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px;
-}
 
-.sec-3 {
-  background-color: rgb(221, 213, 213);
-}
-
-.sec-4 {
-  background-color: #ffd7b4;
-} */
 
 .grid-container {
   display: grid;
@@ -42,15 +29,15 @@
 }
 
 .sec-3 {
-  background-color: rgb(221, 213, 213);
+  background-color: rgb(235, 13, 13);
 }
 
 .sec-4 {
-  background-color: #ffd7b4;
+  background-color: #ad5f1b;
 }
 
 .sec-5 {
-  background-color: #fd973f;
+  background-color: #413225;
 }
 .inner-grid-container {
   display: grid;
@@ -67,5 +54,5 @@
 }
 
 .sec-13 {
-  background-color: lightskyblue;
+  background-color: rgb(14, 137, 214);
 }
