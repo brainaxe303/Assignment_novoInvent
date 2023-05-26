@@ -10,7 +10,7 @@
 
         .div1 {
             padding: 2px;
-            background: rgb(232, 232, 40);
+            background: rgb(87, 179, 246);
             width: 100%;
             height: 30px;
             position: relative;
@@ -27,12 +27,12 @@
 
         .div2>:nth-child(1) {
             flex-basis: 70%;
-            background-color: rgb(36, 250, 246);
+            background-color: rgb(41, 116, 238);
         }
 
         .div3>:nth-child(2) {
             flex-basis: 80%;
-            background-color: rgb(227, 28, 161);
+            background-color: rgb(205, 148, 90);
         }
 
         .div2>:nth-child(2) {
@@ -42,7 +42,7 @@
 
         .div3>:nth-child(1) {
             flex-basis: 20%;
-            background-color: rgb(156, 95, 80);
+            background-color: rgb(221, 116, 90);
         }
 
         .div-grid {
@@ -55,12 +55,12 @@
         }
 
         .divgriditems {
-            background-color: rgb(21, 140, 88);
+            background-color: rgb(112, 207, 244);
         }
 
         .middle {
             height: 180px;
-            background-color: rgb(233, 17, 211);
+            background-color: rgb(243, 149, 96);
         }
 
         .divlast {
