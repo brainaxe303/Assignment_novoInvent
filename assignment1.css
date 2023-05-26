@@ -35,19 +35,28 @@ html {
   background-color: bisque;
   height: 100px;
 }
+
 .box2 {
+  /* margin-left: 20px; */
   background-color: blue;
   height: 300px;
   width: 180px;
+}
+.box22{
+  margin-left: 10px;
 }
 .box3 {
   background-color: aqua;
   height: 200px;
 }
 .box4 {
+  
   background-color: bisque;
-  height: 300px;
+  height:310px;
+  width:500px;
+  margin: 10px;
+  align-items: flex-start;
 }
 .box5{
-    height:140px;
+    height:100px;
 }

@@ -1,0 +1,78 @@
+
+        body {
+            background-color: black;
+        }
+
+        .div1 {
+            display: flex;
+            margin-top: -15px;
+            background-color: rgb(194, 193, 185);
+            width: 101.2%;
+            margin-left: -10px;
+            position: relative;
+            padding: 5px;
+            height: 40px;
+        }
+
+        .div2 {
+            display: flex;
+            margin-top: -15px;
+            background-color: rgb(33, 147, 213);
+            width: 101.2%;
+            margin-left: -13px;
+            position: relative;
+            padding: 5px;
+            height: 80px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            margin-left: -10px;
+            margin-right: -10px;
+            margin-top: 5px;
+        }
+
+        .square {
+            width: 100px;
+            height: 635px;
+            background-color: #61337f;
+            flex-shrink: 0;
+            
+        }
+
+        .text-container {
+            flex-grow: 1;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-container span {
+            margin-left: -15px;
+            margin-top: 12px;
+            height: 30px;
+            width: 30px;
+            background-color: rgb(193, 102, 5);
+            padding: 15px;
+            white-space: nowrap;
+        }
+
+
+        .text-container1 {
+            flex-grow: 3;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-container1 span {
+            margin-top: 12px;
+            margin-left: -20px;
+            height: 30px;
+            width: 380px;
+            background-color: rgb(23, 197, 55);
+            padding: 15px;
+            white-space: nowrap;
+        }
+    
