@@ -17,7 +17,7 @@
         .div2 {
             display: flex;
             margin-top: -15px;
-            background-color: rgb(33, 147, 213);
+            background-color: rgb(217, 171, 85);
             width: 101.2%;
             margin-left: -13px;
             position: relative;
@@ -36,7 +36,7 @@
         .square {
             width: 100px;
             height: 635px;
-            background-color: #61337f;
+            background-color: #ede7f1;
             flex-shrink: 0;
             
         }
@@ -53,7 +53,7 @@
             margin-top: 12px;
             height: 30px;
             width: 30px;
-            background-color: rgb(193, 102, 5);
+            background-color:rgb(217, 171, 85);
             padding: 15px;
             white-space: nowrap;
         }
@@ -68,10 +68,11 @@
 
         .text-container1 span {
             margin-top: 12px;
-            margin-left: -20px;
+            margin-left: -10px;
+            margin-right: 10px;
             height: 30px;
-            width: 380px;
-            background-color: rgb(23, 197, 55);
+            width: 1250px;
+            background-color: rgb(112, 185, 231);
             padding: 15px;
             white-space: nowrap;
         }
